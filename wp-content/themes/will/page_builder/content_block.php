@@ -2,8 +2,8 @@
 
 $block = get_sub_field('block');
 ?>
-
-<style></style>
+<style>
+</style>
 <?php if ($block): ?>
     <div>
         <?php echo wp_kses_post($block); ?>
