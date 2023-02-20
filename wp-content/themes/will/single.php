@@ -13,7 +13,7 @@ get_header();
         font-family:sans-serif;
     }
     .post-hero {
-       margin: -8px -8px 2% -8px;
+       margin: 0 -8px 2% -8px;
        padding:8% 25%;
        line-height:2.5em;
     }

@@ -2,7 +2,6 @@
 
 $features  = get_sub_field('features_block');
 $bg        = get_sub_field('background_colour');
-var_dump($features);
 ?>
 
 <?php if ($features): ?>
