@@ -1,0 +1,2 @@
+<?php 
+// blog feed file
