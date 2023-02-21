@@ -2,19 +2,11 @@
 // blog feed file
 get_header();
 ?>
-<style>
-    .blog-hero .blog-hero-content {
-        margin: 0 -8px 2% -8px !important;
-       padding:8% 25%;
-       text-align:center;
-       background:#c14f51;
-       color:#e5e5e5;
-    }
-</style>
-<div class="blog-hero">  
-    <div class="blog-hero-content">
-        <h1 class="">Blog</h1>
-        <span class="">All blog posts</span>
+<div class="">  
+    <div class="mx-auto text-center bg-red-500 flex flex-col py-20">
+        <h1 class="font-semibold text-4xl subpixel-antialiased text-white">Blog</h1>
+        <span class="text-xl leading-6 pt-3 text-gray-100">A series of blog posts about Cars and Computers. </span>
     </div>
+</div>
 <?php
 get_footer();
