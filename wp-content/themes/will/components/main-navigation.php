@@ -6,7 +6,6 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #3a3635;
 }
 
 .topnav a {
@@ -20,8 +19,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #dd6161;
-  color: black;
+  background-color: #bf2a2a;
 }
 
 .topnav a.active {
@@ -58,7 +56,7 @@ body {
 </head>
 <body>
 
-<div class="topnav" id="myTopnav">
+<div class="topnav bg-[#141010]" id="myTopnav">
 <?php 
     wp_nav_menu( 
         array (
